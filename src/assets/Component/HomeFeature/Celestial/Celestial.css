@@ -1,0 +1,62 @@
+.bg {
+    background: radial-gradient(circle at center, #010157, #020233, #000000);
+  }
+  
+  .cloud-animation {
+    animation: moveUpDown 8s infinite ease-in-out;
+  }
+  .cloud-animation2 {
+    animation: moveUpDown2 5s infinite ease-in-out;
+  }
+  .cloud-animation3 {
+    animation: moveUpDown3 4s infinite ease-in-out;
+  }
+  .cloud-animation4 {
+    animation: moveUpDown4 3s infinite ease-in-out;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move down */
+    }
+  }
+  @keyframes moveUpDown2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move down */
+    }
+  }
+  @keyframes moveUpDown3 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move down */
+    }
+  }
+  @keyframes moveUpDown4 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move down */
+    }
+  }
+  

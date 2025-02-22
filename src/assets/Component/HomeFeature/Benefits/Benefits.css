@@ -1,0 +1,19 @@
+.bg {
+    background: radial-gradient(circle at center, #010157, #020233, #000000);
+  }
+
+  .cloud-animation {
+    animation: moveUpDown 8s infinite ease-in-out;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move down */
+    }
+  }
