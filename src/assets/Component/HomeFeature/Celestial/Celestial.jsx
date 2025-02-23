@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 import photo1 from "../../../../Gallery/Meditation.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';  // Importing FontAwesomeIcon
-import { faCloud } from '@fortawesome/free-solid-svg-icons';
 import "./Celestial.css"
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -28,13 +26,9 @@ export default function Celestial() {
                         </div>
                         <div className='flex justify-center items-center'>
                             <div className=''>
-                                <FontAwesomeIcon icon={faCloud} className='text-4xl cloud-animation' />
                                 <div className='flex justify-center items-center'>
-                                    <FontAwesomeIcon icon={faCloud} className='text-4xl cloud-animation2' />
                                     <img data-aos="fade-up" src={photo1} className='w-96' />
-                                    <FontAwesomeIcon icon={faCloud} className='text-4xl cloud-animation3' />
                                 </div>
-                                <FontAwesomeIcon icon={faCloud} className='text-4xl cloud-animation4' />
                             </div>
                         </div>
                     </div>
